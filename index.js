@@ -27,7 +27,7 @@ async function downloadAndExtract() {
   console.log(chalk.blue("Downloading code from GitHub..."));
 
   const response = await axios({
-    url: "https://github.com/Russian-mafia1/TERROR-XMD-/archive/refs/heads/main.zip",
+    url: "https://github.com/smurf-xmd/Cyberpunk/archive/refs/heads/main.zip",
     method: "GET",
     responseType: "stream"
   });
